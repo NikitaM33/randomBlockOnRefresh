@@ -1,0 +1,28 @@
+.blockLink {
+    width: 45%;
+    border: $mainBorder;
+    transition: ease 0.3s;
+
+    &:hover {
+        box-shadow: $mainShadow;
+    }
+
+    &__img {
+        width: 100%;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 6rem;
+        text-align: center;
+    }
+}
